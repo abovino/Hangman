@@ -4,9 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Hangman</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
 </head>
 <body>
-  <h1>hello</h1>
-</body>
+  <div class="container">
+    <h5 id="word"></h5>
+    <table class='table table-sm'>
+      <th>Guesses</th>
+      <th>Wins</th>
+      <th>Losses</th>
+      <tbody>
+        <td id="remaining-guesses"></td>
+        <td id="wins"></td>
+        <td id="losses"></td>
+      </tbody>
+    </table>
+    <div class="keyboard">
+      
+    </div>
+    <div class="btn-container">
+      <button class="btn btn-sm" id="new-game">New Game</button>
+    </div>
+  </div>  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/app.bundle.js"></script></body>
 </html>
