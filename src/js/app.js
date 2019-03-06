@@ -16,7 +16,6 @@ $('.key').click((e) => {
   if (game.remainingGuesses < 1 || game.dashes.indexOf('_') === -1) {
     return;
   }
-
   const letter = e.target.innerText.toUpperCase();
   const letterIndex = game.checkLetter(letter);
   if (game.guessedLetters.indexOf(letter) === -1) {
