@@ -1,0 +1,41 @@
+.container > h5 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-container > button {
+  float: right;
+  margin-top: 5px;
+  margin-right: 25px;
+}
+
+.table td {
+  text-align: center;
+}
+
+#remaining-guesses {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.keyboard {
+  margin-top: 25px;
+  margin: 0 auto;
+  width: 500px;
+}
+
+.key {
+  text-align:center;
+  float:left;
+  height: 35px;
+  width: 35px;
+  padding: 5px;
+  border: 1px solid green;
+  margin: 1px;
+  cursor: pointer;
+}
+
+.disabled-key {
+  cursor: not-allowed;
+  opacity: .3;
+}
